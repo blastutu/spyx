@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,7 +10,7 @@
         <module name="spzx-model" />
         <module name="common-util" />
         <module name="common-service" />
-        <module name="spyx-manager" />
+        <module name="spzx-manager" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,8 +18,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-service" options="-parameters" />
       <module name="common-util" options="-parameters" />
-      <module name="spyx-common" options="" />
-      <module name="spyx-manager" options="-parameters" />
+      <module name="spzx-common" options="" />
+      <module name="spzx-manager" options="-parameters" />
       <module name="spzx-model" options="-parameters" />
       <module name="spzx-parent" options="" />
     </option>
